@@ -1,0 +1,12 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "备份/02-选择式和选项式/App.vue", "备份/10-props/types", "备份/12-路由器测试/router", "备份/12-路由器测试/App.vue", "备份/12-路由器测试/main.ts"],
+  "exclude": ["src/**/__tests__/*"],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
